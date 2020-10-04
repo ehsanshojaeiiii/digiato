@@ -1,157 +1,252 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Untitled Document</title>
-    <link
-      rel="stylesheet"
-      href="fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.min.css"
-    />
+    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap" rel="stylesheet">
 
     <style>
-      * {
-        margin: 0px;
-        padding: 0px;
-        /* box-sizing: border-box; */
-        font-family: 'Markazi Text', sans-serif;
-      }
+        * {
+            margin: 0px;
+            padding: 0px;
+            /* box-sizing: border-box; */
+            font-family: 'Markazi Text', sans-serif;
+        }
 
-      body {
-        direction: rtl;
-      }
+        body {
+            direction: rtl;
+        }
 
-      nav {
-        background-color: #0f94e9;
-        height: 50px;
-      }
-     nav ul{
-        list-style-type: none;
-      }
-      nav .nav-name li {
-        display: inline-block;
-        width: 80px;
-        height: 100%;
-        text-align: center;
-        padding: 14px 0px;
-        position: relative;
-        transition: 0.2s;
-      }
+        nav {
+            background-color: #0f94e9;
+            height: 50px;
+        }
 
-      nav li:hover {
-        background-color: rgba(2, 159, 243, 0.9);
-        
-      }
+        nav ul {
+            list-style-type: none;
+        }
 
-      nav a {
-        color: white;
-        font-size: 18px;
-        text-decoration: none;
-      }
+        nav li:hover {
+            background-color: rgba(2, 159, 243, 0.9);
+            cursor: pointer;
+        }
 
-      .nav-name li ul {
-        display: none;
-        position: absolute;
-        top: 50px;
-        min-width: 200px;
+        nav a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
 
-        background-color: rgba(255, 255, 255, 0.558);
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      }
+        nav .nav-name li {
+            display: inline-block;
+            width: 80px;
+            height: 100%;
+            text-align: center;
+            padding: 14px 0px;
+            position: relative;
+            transition: 0.3s;
+        }
 
-      .nav-name li ul li {
-        width: 100%;
-        text-align: right;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-      }
 
-      .nav-name li ul li a {
-        padding: 5%;
-        color: black;
-      }
 
-      .nav-name li:hover ul {
-        display: block;
-      }
-      .nav-icon {
-        float: left;
-        
-        display: flex;
-        
-       
-      }
-      .nav-icon li {
-        display: inline;
-        text-align: center;
-        padding: 14.8px;
-        border-right: 1px solid rgba(0, 0, 0, 0.097);
-      }
-     
-      .nav-icon li i {
-        transform: scale(1.3);
-      }
+        .nav-name li ul {
+            display: none;
+            position: absolute;
+            top: 50px;
+            min-width: 200px;
 
-      .logo a {
-        padding: 14px;
-        background-color: #212121;
-        color: aliceblue;
-        font-size: large;
-        float: right;
-        font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
-      }
+            background-color: rgba(255, 255, 255, 0.558);
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
 
-     
+        .nav-name li ul li {
+            width: 100%;
+            background-color: white;
+            text-align: right;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
 
-      .nav-name {
-        float: right;
-      }
+        .nav-name li ul li a {
+            padding: 5%;
 
-      .clear {
-        clear: both;
-      }
+            color: black;
+        }
+
+        .nav-name li:hover ul {
+
+            display: block;
+        }
+
+        .nav-name {
+            float: right;
+        }
+
+        .nav-icon {
+            float: left;
+            display: flex;
+        }
+
+        .nav-icon li {
+            display: inline;
+            text-align: center;
+            padding: 14.8px;
+            border-right: 1px solid rgba(0, 0, 0, 0.097);
+        }
+
+        .nav-icon li i {
+            transform: scale(1.3);
+        }
+
+        .logo a {
+            padding: 14px;
+            background-color: #212121;
+            color: aliceblue;
+            font-size: 19px;
+            float: right;
+            font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+
+
+        .clear {
+            clear: both;
+        }
+
+        .up-sec {
+            width: 95%;
+            height: 20vh;
+            margin: 150px auto;
+        }
+
+        .left-image-up {
+            width: 31%;
+            height: 100%;
+            bottom: 0;
+            float: left;
+        }
+
+        .left-image-up img {
+            width: 100%;
+        }
+
+        .right-image-up {
+            float: left;
+            width: 66%;
+        }
+
+        .right-image-up img {
+            width: 100%;
+        }
+
+        .bottom-sec {
+
+            width: 1410px;
+        }
+
+
+        .left-image-bottom {
+            width: 445px;
+            float: left;
+        }
+
+        .left-image-bottom img {
+            width: 100%;
+        }
+
+        .middle-image-bottom {
+            width: 445px;
+            float: left;
+            margin-left: 8px;
+        }
+
+        .middle-image-bottom img {
+            width: 100%;
+        }
+
+        .right-image-bottom {
+            width: 445px;
+            margin-left: 8px;
+
+            float: left;
+        }
+
+        .right-image-bottom img {
+            width: 100%;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <nav>
-      <h2 class="logo"><a href="">DIGIATO</a></h2>
+        <h2 class="logo"><a href="">DIGIATO</a></h2>
 
-      <ul class="nav-name">
-        <li>
-          <a href="">تکنولوژی</a>
-          <ul>
+        <ul class="nav-name">
             <li>
-              <a href=""> بیاا </a>
+                <a href="">تکنولوژی</a>
+                <ul>
+                    <li>
+
+                        <a href="">اخبار ایران</a>
+
+                    </li>
+                    <li>
+                        <a href=""> امنیت </a>
+                    </li>
+                    <li>
+                        <a href="">نرم افزارواپلیکیشن</a>
+                    </li>
+                </ul>
             </li>
-            <li><a href="">یباظب</a></li>
-            <li><a href="">بظای</a></li>
-          </ul>
-        </li>
-        <li><a href="">موبایل</a></li>
-        <li><a href="">سخت افزار</a></li>
-        <li><a href="">خودرو</a></li>
-        <li><a href="">کاروکسب</a></li>
-        <li><a href="">علمی</a></li>
-        <li><a href="">بررسی ها</a></li>
-        <li><a href="">اخباردیروز</a></li>
-        <li><a href="">تبلیغات</a></li>
-      </ul>
-      <ul class="nav-icon">
-        <li>
-          <a href="">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-user-circle"></i>
-          </a>
-        </li>
-      </ul>
-      <div class="clear"></div>
+            <li><a href="">موبایل</a></li>
+            <li><a href="">سخت افزار</a></li>
+            <li><a href="">خودرو</a></li>
+            <li><a href="">کاروکسب</a></li>
+            <li><a href="">علمی</a></li>
+            <li><a href="">بررسی ها</a></li>
+            <li><a href="">اخباردیروز</a></li>
+            <li><a href="">تبلیغات</a></li>
+        </ul>
+        <ul class="nav-icon">
+            <li>
+                <a href="">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fas fa-user-circle"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="clear"></div>
     </nav>
 
-    <section></section>
+    <section class="up-sec">
+
+        <figure class="left-image-up">
+            <img src="2020-10-04 20_57_27-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
+        </figure>
+        <figure class="right-image-up">
+            <img src="2020-10-04 21_00_36-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
+        </figure>
+    </section>
+
+    <section class="bottom-sec">
+
+
+        <figure class="left-image-bottom">
+            <img src="2020-10-04 21_07_39-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
+        </figure>
+        <figure class="middle-image-bottom">
+            <img src="2020-10-04 21_08_03-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
+        </figure>
+        <figure class="right-image-bottom">
+            <img src="2020-10-04 21_08_22-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
+        </figure>
+    </section>
     <footer></footer>
-  </body>
+</body>
+
 </html>
