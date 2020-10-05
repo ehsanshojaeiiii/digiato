@@ -11,7 +11,6 @@
         * {
             margin: 0px;
             padding: 0px;
-            /* box-sizing: border-box; */
             font-family: 'Markazi Text', sans-serif;
         }
 
@@ -114,66 +113,101 @@
             clear: both;
         }
 
-        .up-sec {
-            width: 95%;
-            height: 20vh;
-            margin: 150px auto;
+
+        .container-images {
+            width: 99%;
+            height: 500px;
+            border: 1px solid black;
+            margin: 100px auto;
         }
 
-        .left-image-up {
-            width: 31%;
+        .container-images>* {
+            border: 1px solid green;
+            margin: 5px;
+            transition: 2s;
+
+        }
+
+        .container-images>div:nth-of-type(1) {
+            width: 32%;
+            height: 350px;
+            float: left;
+            background-image: url(left-up-image.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container-images>div:nth-of-type(2) {
+            width: 66.11%;
+            height: 350px;
+            float: left;
+            background-image: url(right-up-image.jpeg);
+            background-size: cover;
+            background-position: 0px -90px;
+
+
+        }
+
+        .container-images>div:nth-of-type(3) {
+            width: 32%;
+            height: 120px;
+            float: left;
+            background-image: url(https://static.scientificamerican.com/sciam/cache/file/4E0744CD-793A-4EF8-B550B54F7F2C4406.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .container-images>div:nth-of-type(4) {
+            width: 32%;
+            height: 120px;
+            float: left;
+            background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .container-images>div:nth-of-type(5) {
+            width: 33.33%;
+            height: 120px;
+            float: left;
+            background-image: url(https://www.natureindex.com/news-blog/image/5b175525847f4ad8bb7d97cb);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .container-images>div>a {
+            display: block;
+            width: 100%;
             height: 100%;
-            bottom: 0;
-            float: left;
+            text-decoration: none;
+            color: aliceblue;
+            position: relative;
+
         }
 
-        .left-image-up img {
-            width: 100%;
+        .container-images a h3 {
+            bottom: 30px;
+            position: absolute;
+            font-weight: 48px;
+            font-size: 30px;
+            text-align: right;
         }
 
-        .right-image-up {
-            float: left;
-            width: 66%;
+        .container-images a span {
+            bottom: 5px;
+            right: 5px;
+            font-size: 18px;
+            position: absolute;
+
+            color: #bbbbbb;
         }
 
-        .right-image-up img {
-            width: 100%;
-        }
-
-        .bottom-sec {
-
-            width: 1410px;
-        }
-
-
-        .left-image-bottom {
-            width: 445px;
-            float: left;
-        }
-
-        .left-image-bottom img {
-            width: 100%;
-        }
-
-        .middle-image-bottom {
-            width: 445px;
-            float: left;
-            margin-left: 8px;
-        }
-
-        .middle-image-bottom img {
-            width: 100%;
-        }
-
-        .right-image-bottom {
-            width: 445px;
-            margin-left: 8px;
-
-            float: left;
-        }
-
-        .right-image-bottom img {
-            width: 100%;
+        .container-images div a:hover {
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(13, 15, 15, 0.8604575619310224) 18%, rgba(51, 61, 61, 0.4683006991859243) 52%, rgba(255, 255, 255, 0) 74%);
         }
     </style>
 </head>
@@ -222,30 +256,25 @@
         </ul>
         <div class="clear"></div>
     </nav>
+    <section class="container-images">
 
-    <section class="up-sec">
 
-        <figure class="left-image-up">
-            <img src="2020-10-04 20_57_27-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
-        </figure>
-        <figure class="right-image-up">
-            <img src="2020-10-04 21_00_36-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
-        </figure>
+        <div>
+
+            <a href="https://www.google.com/">
+                <h3>راذنلبذذذذذ ذذذhhgsfhsfhذذذذذذذذذذذذ ذذتدن منتلالما لالتلمتلم
+
+                </h3>
+                <span>16 ساعت</span>
+            </a>
+        </div>
+        <div><a href="https://www.google.com/"></a></div>
+        <div><a href="https://www.google.com/"></a></div>
+        <div><a href="https://www.google.com/"></a></div>
+        <div><a href="https://www.google.com/"></a></div>
+
     </section>
 
-    <section class="bottom-sec">
-
-
-        <figure class="left-image-bottom">
-            <img src="2020-10-04 21_07_39-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
-        </figure>
-        <figure class="middle-image-bottom">
-            <img src="2020-10-04 21_08_03-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
-        </figure>
-        <figure class="right-image-bottom">
-            <img src="2020-10-04 21_08_22-دیجیاتو –هر لحظه با اخبار فناوری.png" alt="">
-        </figure>
-    </section>
     <footer></footer>
 </body>
 

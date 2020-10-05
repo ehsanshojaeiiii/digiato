@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+        }
+
+        .rapper {
+            width: 90%;
+            border: 1px solid black;
+        }
+
+        .rapper>* {
+            border: 1px solid green;
+            margin: 5px;
+        }
+
+        .rapper>div:nth-of-type(1) {
+            width: 32%;
+            height: 350px;
+            float: left;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/42/Shaqi_jrvej.jpg);
+            background-size: cover;
+            filter: blur(1px);
+            position: relative;
+        }
+
+        .rapper>div:nth-of-type(2) {
+            width: 66.11%;
+            height: 350px;
+            float: left;
+            background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg);
+            background-size: cover;
+        }
+
+        .rapper>div:nth-of-type(3) {
+            width: 32%;
+            height: 120px;
+            float: left;
+            background-image: url(https://static.scientificamerican.com/sciam/cache/file/4E0744CD-793A-4EF8-B550B54F7F2C4406.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .rapper>div:nth-of-type(4) {
+            width: 32%;
+            height: 120px;
+            float: left;
+            background-image: url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .rapper>div:nth-of-type(5) {
+            width: 33.33%;
+            height: 120px;
+            float: left;
+            background-image: url(https://www.natureindex.com/news-blog/image/5b175525847f4ad8bb7d97cb);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .rapper>div>a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rapper">
+        <div><a href="https://www.google.com/"></a></div>
+        <div><a href="https://www.google.com/"></a></div>
+        <div><a href="https://www.google.com/"></a></div>
+        <div><a href="https://www.google.com/"></a></div>
+        <div><a href="https://www.google.com/"></a></div>
+    </div>
+</body>
+
+</html>
