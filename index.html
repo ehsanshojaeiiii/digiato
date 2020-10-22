@@ -264,7 +264,7 @@
         main {
             margin-right: 95px;
             width: 81.9%;
-            height: 1000vh;
+            height: 500vh;
             border: 1px solid rgba(0, 0, 0, 0.2);
         }
 
@@ -275,23 +275,61 @@
             border: 1px solid rgba(0, 0, 0, 0.2);
         }
 
-        .left1 {
+        .left {
             width: 320px;
             height: 320px;
             border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
         }
 
-        .left1 img {
+        .left img {
+
             margin: 7px auto;
             width: 300px;
             height: 300px;
+            cursor: pointer;
             display: block;
         }
 
 
         .middle {
             float: left;
+            width: 600px;
+        }
+
+        .post1 img {
+            width: 550px;
+            display: block;
+            margin-left: 30px;
+        }
+
+        .post1 {
+            float: left;
+            position: relative;
+        }
+
+        .post1 h1 a {
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+
+        }
+
+        .post1 h1 {
+            position: absolute;
+            bottom: 90px;
+            right: 40px;
+            height: 20px;
+            width: 400px;
+
+        }
+
+        .post-meta {
+            position: absolute;
+            bottom: 10px;
+            right: 200px;
+            color: #c7c7c7;
+            font-size: 18px;
         }
 
         .middle h4 {
@@ -311,24 +349,44 @@
             border: 1px solid rgba(0, 0, 0, 0.2);
         }
 
-        .right1 {
+        .right {
             display: block;
             width: 320px;
             height: 320px;
             border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
-
         }
 
-        .right1 img {
+
+        .right img {
+            cursor: pointer;
+
             margin: 7px auto;
             width: 300px;
             height: 300px;
             display: block;
         }
 
-        .post1 {
-            float: left;
+        .right-end {
+            height: 160px;
+        }
+
+        .right-end img {
+            height: 150px;
+        }
+
+        .nav-name i {
+            color: white;
+            position: absolute;
+            top: 27px;
+            display: none;
+            font-size: 40px;
+            left: 30px;
+        }
+
+        .nav-name li:hover .fas {
+
+            display: block;
         }
     </style>
 </head>
@@ -340,7 +398,9 @@
         <ul class="nav-name">
             <li>
                 <a href="">تکنولوژی</a>
+                <i class="fas fa-caret-up"></i>
                 <ul>
+
                     <li>
 
                         <a href="">اخبار ایران</a>
@@ -363,6 +423,8 @@
             <li>
 
                 <a href="">موبایل</a>
+                <i class="fas fa-caret-up"></i>
+
                 <ul>
                     <li>
 
@@ -389,6 +451,8 @@
             <li>
 
                 <a href="">کاروکسب</a>
+                <i class="fas fa-caret-up"></i>
+
                 <ul>
                     <li>
 
@@ -412,6 +476,8 @@
             <li>
 
                 <a href="">بررسی ها</a>
+                <i class="fas fa-caret-up"></i>
+
                 <ul>
                     <li>
 
@@ -515,14 +581,27 @@
     </section>
 
     <div class="honor-div">
-        <img src="images/honor-img.png" alt="">
+        <img src="images/honor-img.gif" alt="">
     </div>
 
     <main>
 
         <section class="left-side">
-            <div class="left1">
-                <img src="images/main-images/left-side.png" alt="">
+            <div class="left">
+                <img src="images/main-images/left-slide1.gif" alt="">
+            </div>
+
+            <div class="left">
+                <img src="images/main-images/left-slide2.gif" alt="">
+            </div>
+            <div class="left">
+                <img src="images/main-images/left-slide3.gif" alt="">
+            </div>
+            <div class="left">
+                <img src="images/main-images/left-slide4.gif" alt="">
+            </div>
+            <div class="left">
+                <img src="images/main-images/left-slide5.gif" alt="">
             </div>
 
         </section>
@@ -535,17 +614,44 @@
 
             <article class="post1">
 
-                <img src="images/main-images/middle-img.jpg" alt="">
+                <img src="images/main-images/middle-img1.jpg" alt="">
                 <h1> <a href="">مطالعه جدید گردش خون غیرطبیعی را کلید تشخیص دیپ فیک
-                        می‌داند</a></h1>
+                        می‌داند
+                    </a>
+                </h1>
+                <footer>
+                    <div class="post-meta">
+                        <span>ساعت12</span>
+                        <span>ساعت12</span>
 
+                        <span>ساعت12</span>
+                    </div>
+                </footer>
             </article>
         </section>
 
 
         <section class="right-side">
-            <div class="right1">
-                <img src="images/main-images/right-side.png" alt="">
+            <div class="right">
+                <img src="images/main-images/right-slide1.gif" alt="">
+            </div>
+            <div class="right">
+                <img src="images/main-images/right-slide2.gif" alt="">
+            </div>
+            <div class="right">
+                <img src="images/main-images/right-slide3.gif" alt="">
+            </div>
+            <div class="right">
+                <img src="images/main-images/right-slide4.gif" alt="">
+            </div>
+            <div class="right">
+                <img src="images/main-images/right-slide5.gif" alt="">
+            </div>
+            <div class="right">
+                <img src="images/main-images/right-slide6.gif" alt="">
+            </div>
+            <div class="right right-end">
+                <img src="images/main-images/right-slide7.gif" alt="">
             </div>
 
 
