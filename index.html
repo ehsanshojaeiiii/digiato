@@ -116,6 +116,7 @@
 
         .container-images {
             width: 99%;
+
             height: 500px;
             margin: 200px auto;
             z-index: 1;
@@ -124,6 +125,7 @@
         .container-images>* {
             margin: 5px;
 
+
         }
 
         .d {
@@ -131,11 +133,13 @@
             background-size: cover;
             background-position: center;
             position: relative;
+
         }
 
         .container-images>div:nth-of-type(1) {
             width: 32%;
             height: 350px;
+
             background-image: url("./images/up-left-image.jpg");
         }
 
@@ -175,11 +179,7 @@
             color: aliceblue;
             position: relative;
 
-            background: rgba(187, 190, 183, 0.01);
 
-
-
-            transition: 2s;
 
         }
 
@@ -211,9 +211,9 @@
 
         .container-images>div>a:hover {
 
-            background: rgb(0, 0, 0);
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(13, 15, 15, 0.8604575619310224) 23%, rgba(51, 61, 61, 0.4683006991859243) 49%, rgba(255, 255, 255, 0) 60%);
 
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(8, 9, 9, 0.9136788504464286) 14%, rgba(13, 15, 15, 0.8604575619310224) 23%, rgba(51, 61, 61, 0.4683006991859243) 49%, rgba(255, 255, 255, 0) 60%);
         }
 
         .front-blur-bg {
@@ -258,7 +258,7 @@
         .honor-div img {
             display: block;
             width: 100%;
-            height: 100%;
+            height: 10%;
         }
 
         main {
@@ -270,7 +270,8 @@
 
         .left-side {
             width: 320px;
-            height: 5000px;
+            height: 500vh;
+
             float: left;
             border: 1px solid rgba(0, 0, 0, 0.2);
         }
@@ -344,7 +345,7 @@
 
         .right-side {
             width: 320px;
-            height: 5000px;
+            height: 500vh;
             float: left;
             border: 1px solid rgba(0, 0, 0, 0.2);
         }
@@ -387,6 +388,56 @@
         .nav-name li:hover .fas {
 
             display: block;
+        }
+
+        .barresi {
+            width: 81.9%;
+            margin-top: 5px;
+            margin-right: 95px;
+            height: 370px;
+            background-position: center;
+            background-size: cover;
+
+            background-image: url("images/barresi-section.jpg");
+        }
+
+        .top-div-barresi {
+            width: 100%;
+            border-bottom: 0.5px solid #bbbbbb;
+            height: 100px;
+
+        }
+
+        .container-barresi-divs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 40px;
+        }
+
+        .container-barresi-divs>div {
+
+            width: 270px;
+            height: 200px;
+        }
+
+        .container-barresi-divs>div:nth-child(1) {
+            background-color: red;
+        }
+
+        .container-barresi-divs>div:nth-child(2) {
+            background-color: aqua;
+
+        }
+
+        .container-barresi-divs>div:nth-child(3) {
+            background-color: black;
+
+        }
+
+        .container-barresi-divs>div:nth-child(4) {
+            background-color: blue;
+
         }
     </style>
 </head>
@@ -657,7 +708,15 @@
 
         </section>
     </main>
-
+    <section class="barresi">
+        <div class="top-div-barresi"></div>
+        <div class="container-barresi-divs">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
 
     <footer></footer>
 </body>
