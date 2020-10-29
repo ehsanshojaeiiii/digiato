@@ -6,6 +6,8 @@
 
 body {
     direction: rtl;
+
+    box-sizing: border-box;
 }
 
 nav {
@@ -168,7 +170,9 @@ nav .nav-name li {
     text-decoration: none;
     color: aliceblue;
     position: relative;
-
+   
+   background-color:transparent;
+    transition: 1s;
 
 
 }
@@ -201,9 +205,10 @@ nav .nav-name li {
 
 .container-images>div>a:hover {
 
+       
+    background: rgba(0, 0, 0,0.1);
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(8, 9, 9, 0.9136788504464286) 14%, rgba(13, 15, 15, 0.8604575619310224) 23%, rgba(51, 61, 61, 0.4683006991859243) 49%, rgba(255, 255, 255, 0) 60%);
 
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(8, 9, 9, 0.9136788504464286) 14%, rgba(13, 15, 15, 0.8604575619310224) 23%, rgba(51, 61, 61, 0.4683006991859243) 49%, rgba(255, 255, 255, 0) 60%);
 }
 
 .front-blur-bg {
@@ -252,15 +257,18 @@ nav .nav-name li {
 }
 
 main {
-    margin-right: 95px;
-    width: 81.9%;
+    margin: 0px auto;
+  width: 94%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     height: 500vh;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .left-side {
     width: 320px;
-    height: 500vh;
+    height: 400vh;
 
     float: left;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -335,7 +343,8 @@ main {
 
 .right-side {
     width: 320px;
-    height: 500vh;
+    
+    height: 400vh;
     float: left;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -382,8 +391,7 @@ main {
 
 .barresi {
     width: 81.9%;
-    margin-top: 5px;
-    margin-right: 95px;
+    margin:5px auto;
     height: 370px;
     background-position: center;
     background-size: cover;
@@ -406,8 +414,9 @@ main {
 }
 
 .container-barresi-divs>div {
-
-    width: 270px;
+    min-width: 200px;
+    max-width: 300px;
+    
     height: 200px;
 }
 
