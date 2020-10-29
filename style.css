@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,8 +8,8 @@
 
 body {
     direction: rtl;
+    background-color: #f4f4f5;
 
-    box-sizing: border-box;
 }
 
 nav {
@@ -170,8 +172,8 @@ nav .nav-name li {
     text-decoration: none;
     color: aliceblue;
     position: relative;
-   
-   background-color:transparent;
+
+    background-color: transparent;
     transition: 1s;
 
 
@@ -205,8 +207,8 @@ nav .nav-name li {
 
 .container-images>div>a:hover {
 
-       
-    background: rgba(0, 0, 0,0.1);
+
+    background: rgba(0, 0, 0, 0.1);
     background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(8, 9, 9, 0.9136788504464286) 14%, rgba(13, 15, 15, 0.8604575619310224) 23%, rgba(51, 61, 61, 0.4683006991859243) 49%, rgba(255, 255, 255, 0) 60%);
 
 }
@@ -226,6 +228,9 @@ nav .nav-name li {
     background-color: #00000053;
     position: absolute;
     height: 100%;
+
+
+
 }
 
 
@@ -258,20 +263,21 @@ nav .nav-name li {
 
 main {
     margin: 0px auto;
-  width: 94%;
+    width: 94%;
     display: flex;
+    background-color: #ffffff;
     justify-content: space-between;
     flex-direction: row;
+    
     height: 500vh;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    
 }
 
 .left-side {
     width: 320px;
     height: 400vh;
-
     float: left;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .left {
@@ -291,21 +297,23 @@ main {
 }
 
 
-.middle {
-    float: left;
-    width: 600px;
+.post1 {
+
+    position: relative;
+
+    width: 100%;
+    margin: auto;
 }
 
 .post1 img {
-    width: 550px;
+
     display: block;
-    margin-left: 30px;
+    width: 80%;
+    margin: auto;
+
+
 }
 
-.post1 {
-    float: left;
-    position: relative;
-}
 
 .post1 h1 a {
     text-decoration: none;
@@ -316,19 +324,47 @@ main {
 
 .post1 h1 {
     position: absolute;
-    bottom: 90px;
-    right: 40px;
+    font-size: 18px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    /* right: 120px;
+    bottom: 90px; */
+    width: 70%;
     height: 20px;
-    width: 400px;
+
+
+}
+
+.post-header {
+    position: relative;
+}
+
+.post-description {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+
+    line-height: 1.4;
 
 }
 
 .post-meta {
     position: absolute;
-    bottom: 10px;
-    right: 200px;
+    bottom: 30px;
+    right: 150px;
     color: #c7c7c7;
     font-size: 18px;
+}
+
+.divider {
+    width: 100%;
+    margin: 2% auto;
+    border-bottom: 1px solid #bbbbbb;
+
 }
 
 .middle h4 {
@@ -343,7 +379,7 @@ main {
 
 .right-side {
     width: 320px;
-    
+
     height: 400vh;
     float: left;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -391,7 +427,7 @@ main {
 
 .barresi {
     width: 81.9%;
-    margin:5px auto;
+    margin: 5px auto;
     height: 370px;
     background-position: center;
     background-size: cover;
@@ -416,7 +452,7 @@ main {
 .container-barresi-divs>div {
     min-width: 200px;
     max-width: 300px;
-    
+
     height: 200px;
 }
 
