@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0px;
     padding: 0px;
@@ -15,11 +13,15 @@ body {
 nav {
     background-color: #0f94e9;
     height: 50px;
-    left: 0px;
-    right: 0px;
+    /* left: 0px;
+    right: 0px; */
     top: 0px;
+    margin: 0px auto;
+    min-width: 1435px;
+    max-width: 1650px;
+
     z-index: 2;
-    position: fixed;
+    position: sticky;
 }
 
 nav ul {
@@ -109,11 +111,13 @@ nav .nav-name li {
 }
 
 .container-images {
-    width: 99%;
-
+    min-width: 1430px;
+    max-width: 1650px;
+    border: 2px solid red;
     height: 500px;
     margin: 200px auto;
     z-index: 1;
+
 }
 
 .container-images>* {
@@ -122,7 +126,7 @@ nav .nav-name li {
 
 }
 
-.d {
+.image-set {
     float: left;
     background-size: cover;
     background-position: center;
@@ -173,7 +177,6 @@ nav .nav-name li {
     color: aliceblue;
     position: relative;
 
-    background-color: transparent;
     transition: 1s;
 
 
@@ -186,7 +189,7 @@ nav .nav-name li {
     margin: 20px 20px;
 }
 
-.f span {
+.text-set-upper span {
     bottom: 5px;
     right: 5px;
     margin: 10px;
@@ -195,7 +198,7 @@ nav .nav-name li {
     color: #bbbbbb;
 }
 
-.g span {
+.text-set span {
     position: absolute;
     text-align: right;
     margin-right: 140px;
@@ -205,11 +208,9 @@ nav .nav-name li {
     font-size: 20px;
 }
 
-.container-images>div>a:hover {
-
-
-    background: rgba(0, 0, 0, 0.1);
-    background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(8, 9, 9, 0.9136788504464286) 14%, rgba(13, 15, 15, 0.8604575619310224) 23%, rgba(51, 61, 61, 0.4683006991859243) 49%, rgba(255, 255, 255, 0) 60%);
+.container-images div:hover .front-dark-bg {
+    bottom: 0px;
+    display: block;
 
 }
 
@@ -217,15 +218,18 @@ nav .nav-name li {
     display: block;
     width: 100%;
     background-color: #000000cc;
+
     position: absolute;
     height: 100%;
 
 }
 
 .front-dark-bg {
-    display: block;
+    display: none;
     width: 100%;
-    background-color: #00000053;
+    bottom: 500px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9697012594100141) 0%, rgba(8, 9, 9, 0.9136788504464286) 14%, rgba(13, 15, 15, 0.8604575619310224) 23%, rgba(51, 61, 61, 0.4683006991859243) 49%, rgba(255, 255, 255, 0) 60%);
+    transition: 2s;
     position: absolute;
     height: 100%;
 
@@ -247,30 +251,44 @@ nav .nav-name li {
 
 
 }
-
+.container-honor{
+    border: 2px solid red;
+    min-width: 1430px;
+    max-width: 1650px;
+    margin: 0px auto;
+}
 .honor-div {
-    margin-right: 180px;
+    margin: 0px auto;
     padding-bottom: 50px;
-    width: 70%;
-    height: 15%;
+    width: 1000px;
+    height: 100px;
 }
 
 .honor-div img {
     display: block;
     width: 100%;
-    height: 10%;
+    height: 100%;
+}
+
+.container-main {
+    min-width: 1430px;
+    max-width: 1650px;
+    border: 2px solid red;
+    margin: 0px auto;
 }
 
 main {
     margin: 0px auto;
-    width: 94%;
+    border: 2px solid green;
+    margin: 0px auto;
+    width: 1390px;
     display: flex;
     background-color: #ffffff;
     justify-content: space-between;
     flex-direction: row;
-    
+
     height: 500vh;
-    
+
 }
 
 .left-side {
@@ -301,7 +319,7 @@ main {
 
     position: relative;
 
-    width: 100%;
+    width: 700px;
     margin: auto;
 }
 
@@ -425,8 +443,15 @@ main {
     display: block;
 }
 
+.container-barresi {
+    min-width: 1430px;
+    max-width: 1650px;
+    border: 2px solid red;
+    margin: 0px auto;
+}
+
 .barresi {
-    width: 81.9%;
+    width: 1200px;
     margin: 5px auto;
     height: 370px;
     background-position: center;
