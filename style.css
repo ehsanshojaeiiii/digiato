@@ -138,34 +138,34 @@ nav .nav-name li {
     width: 32%;
     height: 350px;
 
-    background-image: url("./images/up-left-image.jpg");
+    background-image: url("./asset/images/up-left-image.jpg");
 }
 
 .container-images>div:nth-of-type(2) {
     width: 66.11%;
     height: 350px;
-    background-image: url("./images/up-right-image.jpg");
+    background-image: url("./asset/images/up-right-image.jpg");
     background-position: 0px -90px;
 }
 
 .container-images>div:nth-of-type(3) {
     width: 32%;
     height: 120px;
-    background-image: url("./images/down-left-image.jpg");
+    background-image: url("./asset/images/down-left-image.jpg");
 }
 
 .container-images>div:nth-of-type(4) {
     width: 32%;
 
     height: 120px;
-    background-image: url("./images/down-middle-image.jpg");
+    background-image: url("./asset/images/down-middle-image.jpg");
 }
 
 .container-images>div:nth-of-type(5) {
     width: 33.33%;
     height: 120px;
 
-    background-image: url("./images/down-right-image.jpg");
+    background-image: url("./asset/images/down-right-image.jpg");
 
 }
 
@@ -457,7 +457,7 @@ main {
     background-position: center;
     background-size: cover;
 
-    background-image: url("images/barresi-section.jpg");
+    background-image: url("asset/images/barresi-section.jpg");
 }
 
 .top-div-barresi {
