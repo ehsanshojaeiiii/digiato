@@ -251,12 +251,14 @@ nav .nav-name li {
 
 
 }
-.container-honor{
+
+.container-honor {
     border: 2px solid red;
     min-width: 1430px;
     max-width: 1650px;
     margin: 0px auto;
 }
+
 .honor-div {
     margin: 0px auto;
     padding-bottom: 50px;
@@ -319,7 +321,7 @@ main {
 
     position: relative;
 
-    width: 700px;
+    width: 740px;
     margin: auto;
 }
 
@@ -343,11 +345,10 @@ main {
 .post1 h1 {
     position: absolute;
     font-size: 18px;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, 50%);
-    /* right: 120px;
-    bottom: 90px; */
+    
     width: 70%;
     height: 20px;
 
@@ -361,21 +362,31 @@ main {
 .post-description {
     text-align: justify;
     font-size: 20px;
-    font-weight: bold;
     display: block;
+    font-weight: 400;
     width: 80%;
     margin: 10px auto;
 
-    line-height: 1.4;
+    line-height: 1.5;
 
 }
 
-.post-meta {
+.post1 .post-meta {
     position: absolute;
     bottom: 30px;
-    right: 150px;
-    color: #c7c7c7;
+    right: 110px;
+
+    color: #d9d5d5;
     font-size: 18px;
+}
+
+.post1 .post-meta span {
+
+    padding: 10px;
+}
+
+.post1 .post-meta .fas {
+    font-size:8px;
 }
 
 .divider {
