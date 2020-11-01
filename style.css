@@ -306,7 +306,7 @@ main {
 
 .inner-card {
     width: 280px;
-    margin: 8px auto;
+    margin: 18px auto;
     box-shadow: -2px 2px 4px #88888892;
     height: 100px;
     display: flex;
@@ -337,12 +337,13 @@ main {
 }
 
 .sidebar-widget .inner-card .span {
-    width: 170px;
+    width: 180px;
     text-align: right;
 
-    padding: 10px 10px;
+    padding: 5px 5px;
     align-self: center;
-    font-size: 20px;
+    font-size: 18.5px;
+    line-height: 1.3;
 }
 
 
