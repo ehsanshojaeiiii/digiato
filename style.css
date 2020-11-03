@@ -24,6 +24,8 @@ nav {
     position: sticky;
 }
 
+
+
 nav ul {
     list-style-type: none;
 }
@@ -37,6 +39,12 @@ nav a {
     color: white;
     font-size: 18px;
     text-decoration: none;
+}
+
+nav .nav-name li .fas {
+    color: white;
+    top: 22px;
+    font-size: 35px;
 }
 
 nav .nav-name li {
@@ -277,7 +285,7 @@ nav .nav-name li {
     min-width: 1430px;
     max-width: 1650px;
     margin: 0px auto;
-    height: 3020px;
+    height: 3010px;
 }
 
 main {
@@ -438,6 +446,7 @@ main {
 
 .post1 .post-meta .fas {
     font-size: 8px;
+
 }
 
 /* .divider {
@@ -588,13 +597,12 @@ i {
 .container-barresi {
     min-width: 1430px;
     max-width: 1650px;
-    border: 2px solid red;
     margin: 0px auto;
 }
 
 .barresi {
     width: 1300px;
-    margin: 5px auto;
+    margin: 0px auto;
     height: 370px;
     background-position: center;
     background-size: cover;
@@ -649,8 +657,10 @@ article .text-post2 .edame-matlab {
 }
 
 .pag-container {
-    margin: 10px auto;
+
     display: flex;
+    background-color: #f4f4f5;
+
 }
 
 .pagination {
