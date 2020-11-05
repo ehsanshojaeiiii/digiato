@@ -297,7 +297,7 @@ main {
     justify-content: space-between;
     flex-direction: row;
 
-    height: 4500px;
+    height: 6000px;
 
 }
 
@@ -715,6 +715,7 @@ article .text-post2 .edame-matlab {
 }
 
 .card {
+    border: 2px solid red;
     height: 450px;
     margin: 0px auto;
     width: 1300px;
@@ -734,7 +735,7 @@ article .text-post2 .edame-matlab {
 .top-card-title button {
     font-weight: bolder;
     width: 150px;
-    border: none;
+    border: 1px solid red;
     font-size: 22px;
     margin: 30px 30px;
     height: 45px;
@@ -745,7 +746,7 @@ article .text-post2 .edame-matlab {
     border-radius: 5px;
 }
 
-.top-card-title .h3-incard {
+.h3-incard {
     margin: 30px 40px;
     color: #1661e2;
     font-size: 35px;
@@ -801,5 +802,125 @@ article .text-post2 .edame-matlab {
 
 .inline-card>div:hover {
     box-shadow: -5px 5px 14px #888888c2;
+
+}
+
+.container-article {
+    min-width: 1430px;
+    max-width: 1650px;
+    margin: 0px auto;
+}
+
+.fig-sec {
+
+    height: 760px;
+    margin: 0px auto;
+    width: 1300px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.row-content {
+    display: flex;
+    width: 1300px;
+    height: 325px;
+    position: relative;
+}
+
+.row-content article {
+    display: flex;
+    width: 650px;
+    height: 320px;
+}
+
+.row-content figcaption {
+    background-color: #0f94e9;
+    position: relative;
+
+}
+
+.row-content figcaption,
+figure {
+    width: 325px;
+    height: 325px;
+}
+
+
+.row-content figure img {
+    object-fit: cover;
+    height: 325px;
+    width: 325px;
+}
+
+.row-content article>.fas {
+    position: absolute;
+    font-size: 80px;
+    color: #0f94e9;
+    bottom: 120px;
+}
+
+
+
+.row-content article .caret1 {
+    left: 312px;
+}
+
+.row-content .caret2 {
+    right: 290px;
+}
+
+.row-content .caret3 {
+    right: 312px;
+}
+
+.row-content .caret4 {
+    left: 290px;
+}
+
+.row-content figcaption .fig-h4 {
+    justify-content: center;
+    font-size: 21px;
+    margin: 15px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    width: 280px;
+    height: 65px;
+}
+
+.meta-fig-sec {
+    width: 250px;
+    height: 40px;
+    color: #9dd3f6;
+    margin-right: 20px;
+
+}
+
+.row-content .read-more {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-top: 5px;
+}
+
+.meta-fig-sec span {
+    font-size: 19px;
+}
+
+.meta-fig-sec .fa-circle {
+
+    font-size: 8px;
+}
+
+.row-content figcaption button {
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 145px;
+    height: 40px;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    font-size: 22px;
+    background-color: #0f94e9;
 
 }
