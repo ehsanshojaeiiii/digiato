@@ -957,6 +957,7 @@ figure {
     flex-direction: row-reverse;
     height: 300px;
 
+
 }
 
 .card-green-title {
@@ -985,32 +986,35 @@ figure {
 }
 
 .card-green figure {
-    width: 125px;
-    height: 125px;
-    border: 30px solid white;
-
+    width: 180px;
+    height: 180px;
+    background-color: white;
 }
 
 .card-green figcaption {
-    overflow: hidden;
-    height: 50px;
-    line-height: 3;
+    height: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .card-green figcaption a {
-    display: inline;
     color: white;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .card-green figure img {
-    width: 100%;
+    position: absolute;
     object-fit: cover;
-
-    height: 100%;
+    top: 30px;
+    left: 30px;
+    width: 120px;
+    height: 120px;
 }
 
 .card-green>div:nth-child(n) {
     height: 232px;
     width: 180px;
+    position: relative;
+
 }
