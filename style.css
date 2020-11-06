@@ -11,6 +11,7 @@ a {
 body {
     direction: rtl;
     background-color: #f4f4f5;
+    height: 8000px;
 
 }
 
@@ -297,7 +298,7 @@ main {
     justify-content: space-between;
     flex-direction: row;
 
-    height: 6300px;
+    height: 6000px;
 
 }
 
@@ -1017,4 +1018,55 @@ figure {
     width: 180px;
     position: relative;
 
+}
+
+.container-down-nav {
+    min-width: 1430px;
+    max-width: 1650px;
+    margin: 0px auto;
+
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    float: right;
+    width: 1100px;
+    margin-right: 30px;
+    height: 100%;
+    font-size: 18px;
+}
+
+.menu a {
+    padding: 0px 20px;
+    width: 100%;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.797);
+}
+
+.menu>li:first-child {
+    font-weight: bold;
+}
+
+.down-nav {
+    margin: 0px auto;
+    margin-top: 40px;
+    height: 55px;
+    box-shadow: 0px -5px 8px #88888889;
+    background-color: #ffffff;
+}
+
+.container-footer {
+    min-width: 1430px;
+    max-width: 1650px;
+    margin: 0px auto;
+    background-color: red;
+    border: 2px solid green;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 500px;
 }
